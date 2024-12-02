@@ -169,7 +169,7 @@ footer h3 {
     line-height: 120%;
 }
 
-footer .footer-top img {
+footer .lang img {
     height: 15px;
     margin: 10px 3px;
 }
@@ -185,14 +185,9 @@ footer .footer-top {
     padding-bottom: 3%;
 }
 
-footer .footer-info {
-    flex-basis: 20%;
-}
-
 footer .footer-lists {
-    height: 80%;
-    flex-basis: 80%;
     justify-content: space-between;
+    flex-basis: 80%;
 }
 
 footer ul {
@@ -216,6 +211,15 @@ footer .footer-bottom {
 
 footer .footer-bottom figure{
     width: 10%;
+}
+
+#socials {
+    margin-top: 5px;
+}
+
+#socials img {
+    width: 20px;
+    margin-right: 5px;
 }
 
 
