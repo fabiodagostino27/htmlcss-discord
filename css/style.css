@@ -16,6 +16,7 @@ html {
     --color2: #23272A;
     --color3: #F6F6F6;
     --color4: #7289DA;
+    --color5: #23272A;
 }
 
 .flex {
@@ -131,6 +132,7 @@ main section:nth-child(even) {
 }
 
 #big-section h3 {
+    margin-top: -3%;
     font-size: 30px;
     padding-bottom: 20px;
 }
@@ -141,7 +143,7 @@ main section:nth-child(even) {
 }
 
 #big-section .download {
-    width: 45%;
+    width: 550px;
     margin-inline: auto;
 }
 
@@ -157,19 +159,34 @@ main section:nth-child(even) {
 /* Footer */
 footer {
     padding: 5% 8%;
+    background-color: var(--color5);
+    color: var(--color1);
+}
+
+footer h3 {
+    color: var(--color4);
+    font-size: 30px;
+    line-height: 120%;
+}
+
+footer img {
+    height: 15px;
+    margin: 10px 3px;
+}
+
+footer .lang {
+    align-items: center;
 }
 
 footer .footer-top {
-    height: 80%;
     justify-content: space-between;
     gap: 5%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid var(--color4);
+    padding-bottom: 3%;
 }
 
 footer .footer-info {
     flex-basis: 20%;
-    height: 50%;
-    background-color: blue;
 }
 
 footer .footer-lists {
@@ -179,9 +196,17 @@ footer .footer-lists {
 }
 
 footer ul {
-    background-color: blue;
     flex-basis: 15%;
-    height: 100%;
+    list-style-type: none;
+}
+
+footer li {
+    margin-block: 3%;
+}
+
+footer ul li:first-child {
+    color: var(--color4);
+    font-weight: 500;
 }
 
 footer .footer-bottom {
