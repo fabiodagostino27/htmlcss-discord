@@ -15,6 +15,7 @@ html {
     --color1: #FFFFFF;
     --color2: #23272A;
     --color3: #F6F6F6;
+    --color4: #7289DA;
 }
 
 .flex {
@@ -44,7 +45,7 @@ nav figure, nav div {
     flex-basis: 10%;
 }
 
-header button {
+button {
     padding: 10px 15px;
     border-radius: 20px;
     border: none;
@@ -95,10 +96,14 @@ main .small-section {
     padding-block: 3%;
 }
 
+main figure img {
+    width: 100%;
+}
+
 main h2 {
     font-size: 45px;
     line-height: 120%;
-    margin-bottom: 10%;
+    padding-bottom: 20px;
 }
 
 .small-section figure {
@@ -110,10 +115,6 @@ main h2 {
     padding-inline: 5%;
 }
 
-#big-section {
-    height: 40%;
-}
-
 main section:nth-child(odd) {
     background-color: var(--color1);
 }
@@ -123,25 +124,25 @@ main section:nth-child(even) {
 }
 
 #big-section {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 #big-section h3 {
-    flex-basis: 10%;
-    width: 65%;
-    background-color: red;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
-#big-section div {
-    flex-basis: 10%;
-    width: 40%;
+#big-section .btn-blue {
+    background-color: var(--color4);
+    color: var(--color1);
 }
 
-#big-section figure {
-    flex-basis: 60%;
-    width: 70%;
+#big-section .download {
+    width: 45%;
+    margin-inline: auto;
 }
 
 .wave img{
@@ -152,6 +153,7 @@ main section:nth-child(even) {
 .rotate-180 {
     transform: rotateX(180deg);
 }
+
 /* Footer */
 footer {
     padding: 5% 8%;
