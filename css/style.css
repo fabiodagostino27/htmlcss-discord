@@ -19,11 +19,6 @@ html {
     display: flex;
 }
 
-
-main {
-    height: 3000px;
-}
-
 footer {
     height: 600px;
     background-color: black;
