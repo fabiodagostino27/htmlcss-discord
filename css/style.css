@@ -137,7 +137,7 @@ main section:nth-child(even) {
     padding-bottom: 20px;
 }
 
-#big-section .btn-blue {
+.btn-blue {
     background-color: var(--color4);
     color: var(--color1);
 }
@@ -169,7 +169,7 @@ footer h3 {
     line-height: 120%;
 }
 
-footer img {
+footer .footer-top img {
     height: 15px;
     margin: 10px 3px;
 }
@@ -210,15 +210,12 @@ footer ul li:first-child {
 }
 
 footer .footer-bottom {
-    height: 20%;
     justify-content: space-between;
-    padding: 2% 0;
+    padding: 20px 0;
 }
 
-footer .footer-bottom div{
+footer .footer-bottom figure{
     width: 10%;
-    height: 100%;
-    background-color: white;
 }
 
 
