@@ -14,6 +14,7 @@ html {
 :root {
     --color1: #FFFFFF;
     --color2: #23272A;
+    --color3: #F6F6F6;
 }
 
 .flex {
@@ -84,19 +85,20 @@ header .btn-dark {
 }
 
 /* Main */
+main {
+    margin-top: 3%;
+}
+
 main .small-section {
-    justify-content: center;
-    padding: 5% 20%;
+    width: 60%;
+    margin: 0 auto;
+    padding-block: 3%;
 }
 
 main h2 {
     font-size: 45px;
     line-height: 120%;
     margin-bottom: 10%;
-}
-
-.small-section figure img {
-    width: 100%;
 }
 
 .small-section figure {
@@ -113,11 +115,11 @@ main h2 {
 }
 
 main section:nth-child(odd) {
-    background-color: #FFFFFF;
+    background-color: var(--color1);
 }
 
 main section:nth-child(even) {
-    background-color: #F6F6F6;
+    background-color: var(--color3);
 }
 
 #big-section {
@@ -142,6 +144,14 @@ main section:nth-child(even) {
     width: 70%;
 }
 
+.wave img{
+    width: 100%;
+    display: block;
+}
+
+.rotate-180 {
+    transform: rotateX(180deg);
+}
 /* Footer */
 footer {
     padding: 5% 8%;
