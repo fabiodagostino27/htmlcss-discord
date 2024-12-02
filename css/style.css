@@ -7,7 +7,8 @@
 }
 
 html {
-    font-family: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
+    line-height: 160%;
 }
 
 :root {
@@ -62,7 +63,6 @@ header .title {
     margin: 0 auto;
     text-align: center;
     padding: 8% 10% 8%;
-    line-height: 160%;
 }
 
 header .title h1 {
@@ -85,15 +85,31 @@ header .btn-dark {
 
 /* Main */
 main .small-section {
-    height: 20%;
     justify-content: center;
-    align-items: center;
-    gap: 2%;
+    padding: 5% 20%;
+}
+
+main h2 {
+    font-size: 45px;
+    line-height: 120%;
+    margin-bottom: 10%;
+}
+
+.small-section figure img {
+    width: 100%;
+}
+
+.small-section figure {
+    flex-basis: 60%;
+}
+
+.small-section .caption {
+    flex-basis: 40%;
+    padding-inline: 5%;
 }
 
 #big-section {
     height: 40%;
-    
 }
 
 main section:nth-child(odd) {
@@ -102,26 +118,6 @@ main section:nth-child(odd) {
 
 main section:nth-child(even) {
     background-color: #F6F6F6;
-}
-
-main .small-section figure {
-    flex-basis: 30%;
-}
-
-main .small-section div {
-    flex-basis: 25%;
-}
-
-main .small-section div, main .small-section figure {
-    height: 65%;
-}
-
-main section figure {
-    background-color: black;
-}
-
-main section div {
-    background-color: red;
 }
 
 #big-section {
